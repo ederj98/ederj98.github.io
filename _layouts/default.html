@@ -3,10 +3,10 @@
 	<head>
 		{% include head.html %}
 	</head>
-	<body class="is-preload">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<body>
+		
+			<!-- Wrapper -->
+			<div class="par">
 
 				<!-- Header -->
 					{% include main_navegation.html %}
@@ -17,16 +17,14 @@
 					{% include footer.html %}
 
 			</div>
+			<!-- BG -->
 
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
+			<!-- Scripts -->
 			<script src= {{ "assets/js/jquery.min.js" | relative_url }} ></script>
+			<script src= {{ "assets/js/background.js" | relative_url }}></script>
 			<script src= {{ "assets/js/browser.min.js" | relative_url }} ></script>
-			<script src= {{ "assets/js/breakpoints.min.js" | relative_url }} ></script>
-			<script src= {{ "assets/js/util.js" | relative_url }} ></script>
+			<script src= {{ "assets/js/breakpoints.min.js" | relative_url }} ></script>	
 			<script src= {{ "assets/js/main.js" | relative_url }} ></script>
-
+			<script src= {{ "assets/js/util.js" | relative_url }} ></script>
 	</body>
 </html>
