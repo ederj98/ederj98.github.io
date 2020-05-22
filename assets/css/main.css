@@ -184,7 +184,11 @@ html {
 }
 
 body {
-  background: #1b1f22;
+  background-image: url("../../images/bg.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body.is-preload *,
