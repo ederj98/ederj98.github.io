@@ -10,7 +10,7 @@ layout: default
     <!-- About Me -->
     <article id="intro">
         <h2 class="major">About Me</h2>
-        <span class="image main"><img src="images/pic01.png" alt="" /></span>
+        <span class="image main"><img src="images/pic01_1.png" alt="" /></span>
         <p>I am Eder, I am a systems engineer and passionate about code. I believe that through code you can transform the world and help others. I like everything related to science fiction (books, movies, series) and in my spare time I like to try new technologies.</p>
     </article>
     <article id="work" class="pagination-wrapper">
